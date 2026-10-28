@@ -6,4 +6,5 @@
 ## Building this agent
 - Status: in progress (started 2026-10-28)
 - Done: memory + personality system, sync script.
-- Next: decide the agent's purpose and name; push repo to GitHub.
+- Repo: github.com/yuvaldascalu-sys/labradoodle (private)
+- Next: decide the agent's purpose.

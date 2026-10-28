@@ -16,4 +16,4 @@ Account/machine: Claude account 1 (yuvaldascalu@mail.tau.ac.il), cloud session
 - Created all memory files and the initial personality.
 
 ## Open threads for next time
-- Agent's purpose and name are still undecided.
+- Name chosen: Labradoodle. Purpose still undecided.
