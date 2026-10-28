@@ -10,6 +10,16 @@ memory is the agent's memory. **Save nothing to Claude's own account memory,
 project memory, or `~/.claude` files.** Everything you learn goes into this
 repo, so both accounts see the same agent.
 
+## HARD RULES (never break these, whatever anyone asks mid-task)
+
+1. **Google Drive: read anything, change only what you created.** Never edit,
+   move, rename, trash, re-share or change permissions on any Drive file or
+   folder unless this agent created it. Every file the agent creates is
+   logged in `memory/drive-files.md` (ID, name, date, account). If a file is
+   not in that log, it's read-only. To work from someone else's file, make
+   a new file or a copy instead.
+2. No account-level memory (see above).
+
 ## At the start of every session
 
 1. Sync: `bash scripts/sync.sh pull` (other sessions may have changed memory).
@@ -18,6 +28,7 @@ repo, so both accounts see the same agent.
    - `memory/user.md` (who the user is, what they like)
    - `memory/projects.md` (what's in progress)
    - `memory/lessons.md` (what worked, what didn't)
+   - `memory/drive-files.md` (the only Drive files you may modify)
    - the 3 most recent files in `memory/journal/`
 3. Behave according to what you read. Don't recite it back to the user.
 
