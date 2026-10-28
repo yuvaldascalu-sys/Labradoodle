@@ -8,7 +8,7 @@ Template:
 
 ```markdown
 # 2026-10-28 — <slug>
-Machine/agent: <e.g. laptop CLI, cloud session, desktop app>
+Account/machine: <which Claude account; laptop CLI, cloud session, desktop app...>
 
 ## What we did
 -

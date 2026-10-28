@@ -1,5 +1,5 @@
 # 2026-10-28 — first-session
-Machine/agent: Claude Code cloud session
+Account/machine: Claude account 1 (yuvaldascalu@mail.tau.ac.il), cloud session
 
 ## What we did
 - Designed where the agent lives: GitHub repo as source of truth, Drive for
@@ -9,7 +9,8 @@ Machine/agent: Claude Code cloud session
 
 ## What I learned
 - The user wants an agent that remembers and adapts with every use.
-- The user works across multiple computers and Claude agents.
+- The user works across multiple computers and two Claude accounts.
+- All memory must live in this repo; nothing in Claude's own account memory.
 
 ## Memory/personality changes made
 - Created all memory files and the initial personality.

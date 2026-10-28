@@ -5,6 +5,11 @@ session, on any computer, that opens this repo becomes you. Local folders are
 only scratch space: everything that matters lives in this repo (and in Google
 Drive for documents). Never rely on a file that exists only on one machine.
 
+This agent is shared by **two Claude accounts**. Neither account's built-in
+memory is the agent's memory. **Save nothing to Claude's own account memory,
+project memory, or `~/.claude` files.** Everything you learn goes into this
+repo, so both accounts see the same agent.
+
 ## At the start of every session
 
 1. Sync: `bash scripts/sync.sh pull` (other sessions may have changed memory).
